@@ -1,55 +1,36 @@
 export const portfolioData = {
-  name: 'Ashwin Sundar Ram',
-  roles: [
-    'MBA Candidate',
-    'Data Storyteller',
-    'Efficiency Expert',
-    'Tech Innovator',
-  ],
-  profileSummary:
-    'A forward-thinking MBA candidate passionate about the intersection of data, technology, and business strategy. I thrive on transforming complex data into compelling narratives and building efficient, scalable solutions that drive real-world impact.',
-  experience: {
-    company: 'Cognizant',
-    role: 'Associate',
-    duration: 'Oct 2021 - May 2025',
-    points: [
-      'Championed a major automation initiative that saved a 22-person team over 11,400 hours annually by streamlining deployment and data workflows.',
-      'Spearheaded the modernization of a critical business system, boosting performance by 25% and significantly improving stability.',
-      'Developed a key internal tool from the ground up to automate project configurations, reclaiming over 1,400 hours of developer productivity each year.',
-      'Innovated an AI-powered customer support model, with projections to slash query response times by 20% and elevate client satisfaction.',
+    name: "Ashwin Sundar Ram",
+    roles: ["MBA Candidate", "Predictive Modeler", "Data Analyst", "GenAI Enthusiast"],
+    profileSummary: "An analytics-focused MBA candidate skilled in predictive modeling, statistical analysis, and data-driven decision making. I'm passionate about leveraging business analytics and strategic insight to drive impactful outcomes.",
+    experience: {
+        company: "Cognizant",
+        role: "Associate",
+        duration: "Oct 2021 - May 2025",
+        points: [
+            "Drove significant efficiency gains by automating deployment and data workflows, saving a 22-person team over 11,400 hours per year.",
+            "Spearheaded the modernization of a key business system, resulting in a 25% performance increase and a 15% decrease in production incidents.",
+            "Built a critical internal tool to automate project configuration, saving the development team an estimated 1,400+ hours annually in productivity.",
+            "Presented a project plan on an AI-driven customer support solution projected to reduce query response time by 20%, aiming to improve CSAT scores.",
+            "Enhanced application performance and stability through proactive issue resolution, boosting efficiency by 15-20%."
+        ]
+    },
+    projects: [
+        {
+            title: "Kickstarter Success Optimization",
+            description: "Developed a machine learning model on over 300,000 project records to predict Kickstarter campaign outcomes with over 63% accuracy, enabling actionable recommendations for success."
+        },
+        {
+            title: "Generative AI Academic Tool",
+            description: "Engineered a personal GenAI study agent using OpenAI and Google Gemini, creating a powerful, free alternative to premium AI tools for academic research and learning."
+        },
+        {
+            title: "The Commercial Impact of Player Branding in Sports",
+            description: "Leveraged advanced sports analytics to quantify the impact of player branding on jersey sales, generating actionable insights for revenue optimization and commercial strategy."
+        }
     ],
-  },
-  projects: [
-    {
-      title: 'The Power of a Name: Player Branding in Sports',
-      description:
-        "A deep dive into the sports world, this study analyzed how an athlete's personal brand can dramatically influence merchandise sales, blending data analysis with marketing psychology.",
-    },
-    {
-      title: 'From Data to Headline: A News Story Recreation',
-      description:
-        'Using Python and Quarto, I took on the challenge of recreating an economic news article from raw data, honing my skills in data cleaning, analysis, and compelling visualization.',
-    },
-  ],
-  education: [
-    {
-      degree: 'Post Graduate Program in Management (PGPM)',
-      institute: 'Great Lakes Institute of Management, Chennai',
-      year: '2026',
-    },
-    {
-      degree: 'Bachelor of Engineering (B.E.)',
-      institute: 'CMR Institute of Technology, Bengaluru',
-      year: '2021',
-    },
-  ],
-  skills: [
-    'Business Analytics',
-    'Data Storytelling',
-    'Strategic Insight',
-    'Process Improvement',
-    'Python',
-    'SQL',
-    'Microsoft Azure',
-  ],
+    education: [
+        { degree: "Post Graduate Program in Management (PGPM)", institute: "Great Lakes Institute of Management, Chennai", year: "Pursuing" },
+        { degree: "Bachelor of Engineering (B.E.)", institute: "CMR Institute of Technology, Bengaluru", year: "2021" }
+    ],
+    skills: ["Python", "SQL", "Data Analytics", "Data Visualization", "Generative AI", "Team Leadership", "Problem Solving", "Microsoft Azure"]
 };
